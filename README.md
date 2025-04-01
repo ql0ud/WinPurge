@@ -38,20 +38,18 @@ It is particularly well-suited for *System Administrators*, *IT Professionals*, 
 
 ---
 
-## Usage Instructions
+## Usage
 
-1. Launch PowerShell as **Administrator**.
-2. Execute the script by running the following command:
+Open **PowerShell as Administrator** and run:
 
-```powershell
-.\WinPurge.ps1
 ```
-
-3. Allow the script to complete the optimization process.
+iwr -useb https://raw.githubusercontent.com/ql0ud/WinPurge/main/WinPurge.ps1 | iex
+```
+This will download and execute the latest version of the script directly from GitHub.
 
 ---
 
-## Important Considerations
+## Important
 
 - This script executes operations that permanently delete data. Ensure you have appropriate backups.
 - Certain actions, such as clearing event logs or resetting network settings, may affect logging systems or active network connections.
